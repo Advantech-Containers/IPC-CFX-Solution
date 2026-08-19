@@ -1,52 +1,33 @@
-#IPC-CFX Manufacturing Data Exchange Architecture
+#Containerized IPC-CFX Manufacturing Data Exchange
 
-IPC-CFX enables real-time manufacturing data exchange across equipment and systems through a standardized architecture.
+Plug-and-play edge connectivity for SMT production lines, enabling real-time data harmonization, end-to-end traceability, and smart factory integration.
 
 #Overview
 
-IPC-CFX (Connected Factory Exchange) is a global smart manufacturing communication standard defined by IPC.
-By adopting the open AMQP v1.0 messaging protocol and JSON data encoding, CFX enables real-time data exchange across SMT production equipment, covering process, quality, maintenance, and material information.
-It serves as a core data language for smart factory connectivity, supporting seamless integration between shop-floor equipment and MES/ERP systems to achieve a transparent, efficient, and traceable manufacturing environment.
+The Containerized IPC-CFX Manufacturing Data Exchange is a robust, edge-ready middleware solution designed to eliminate information silos on the shop floor. By deploying this lightweight container directly onto Advantech Edge IPCs, manufacturers can instantly leverage the global IPC-CFX (Connected Factory Exchange) standard.
 
-#Architecture & Key Capabilities
+Utilizing the open AMQP v1.0 messaging protocol and structured JSON data encoding, this solution translates fragmented, proprietary machine schemas into a single, unified data language. It provides seamless, bi-directional integration between your SMT equipment (AOI, SPI, Printers, Reflow, Mounters) and enterprise MES/ERP/Digital Twin platforms, creating a transparent, efficient, and fully traceable manufacturing environment.
 
-- **Communication Protocol:** AMQP v1.0, supporting reliable and secure real-time messaging
-- **Data Format:** JSON-based structured data to ensure consistency across equipment and systems
-- **Security Mechanism:** Endpoint encryption and secure authentication to meet high-level security requirements
-- **Communication Modes:** Supports broadcast, point-to-point, and multi-subscriber messaging
-- **Scalable Design:** Modular topic and message architecture enabling plug-and-play expansion
-- **Interoperability:** Bi-directional integration with IPC-Hermes-9852, supporting both machine-to-machine and machine-to-MES communication
+#The Challenge: Breaking Down Data Silos & Enabling a Unified Data Schema for Electronics Manufacturing
 
-#Solution Value
+While modern SMT production lines feature highly automated equipment, the data they generate remains deeply fragmented. Traditional integration suffers from:
+- Proprietary Schemas: Each vendor utilizes unique data structures, preventing cross-machine communication.
+- High Integration Costs: Point-to-point custom API developments drive up deployment time and maintenance overhead.
+- Delayed Intelligence: Lack of real-time data restricts factory-wide visibility, stalling the realization of closed-loop, AI-driven smart manufacturing.
 
-##Manufacturing Data Integration Value with CFX
+#Solution Value & ROI
 
-- **Real-time data visibility:** Production output, equipment status, and alarms are automatically reported to support MES-driven scheduling.
-- **Unified equipment integration:** A common data language enables seamless integration of AOI, SPI, Printer, Reflow, and Mounter equipment.
-- **End-to-end traceability:** Combined with Hermes, PCB serial numbers, batch, and routing information can be exchanged to achieve board-level traceability.
-- **Reduced manual dependency:** Automatic reporting of part numbers, downtime, and maintenance status minimizes manual input and human error.
-- **Data-driven decision making:** Real-time insight into yield and OEE supports informed manufacturing decisions.
-
-#Reference Performance Metrics
-
-##Based on Industry Integration Experience
-
-- **Automation Improvement: 66%**
-Automated exchange of process and equipment data reduces manual intervention.
-- **Throughput Increase: 33%**
-Real-time manufacturing data enables improved line balance and output efficiency.
-- **Reduced Changeover Effort: 30%**
-Centralized and automated reporting reduces operational management effort.
+##Smoother Manufacturing Data Integration Value with CFX
+Deploying the IPC-CFX container fundamentally transforms edge-to-cloud data workflows, delivering proven business outcomes:
+- **66% Automation Improvement:** Automated exchange of process and equipment data drastically reduces manual intervention and human error.
+- **25% - 35% Throughput Increase:** Real-time manufacturing data enables dynamic line balancing and optimized OEE (Overall Equipment Effectiveness).
+- **Sub-3-Minute Changeovers:** Centralized, automated recipe management and reporting minimize operational downtime during product shifts.
+- **Board-Level Traceability:** Deep integration with IPC-Hermes-9852 allows continuous tracking of PCB serial numbers, batch data, and routing.
+- **Real-time data visibility & digital twin readiness:** Production output, equipment status, and alarms are reported live to MES and shared with digital twins for optimizing production processes.
+- **Unified equipment integration:** A common data language enables seamless integration of AOI, SPI, Printer, Reflow, Mounter, AMRs and all supporting equipment.
 
 #Container Demo
 ![Sunjsong Technology Co., Ltd. CFX Demo](DEMO1.gif)
-
-#Operational Challenges
-
-##Limitations of Traditional Manufacturing Data Integration
-
-Although traditional SMT production lines have adopted automated equipment, manufacturing data remains highly fragmented, resulting in typical information silos.
-The lack of a unified data language across systems leads to inconsistent data formats, limited real-time data availability, high cross-vendor integration costs, and restricts factory-wide manufacturing data visibility and the realization of a closed-loop smart manufacturing environment.
 
 #Data Coverage
 
@@ -58,8 +39,19 @@ Provides the key manufacturing data required for real-time visibility, process t
 - **Quality and inspection data:** AOI, SPI, and test results
 - **Material and traceability data:** part numbers, batch information, and material usage records
 - **Operational performance data:** foundational data supporting utilization, yield, and OEE analysis
+- **Digital twin simulation:** live equipment configuration and telemetry for simulating and adjusting your production line in digital twins
 
 #Data Exchange Flow
 
 ##CFX Data Exchange Flow Diagram
 ![Sunjsong Technology Co., Ltd. CFX Flow](CFX-FLOW.jpg)
+
+##CFX Data Structure
+![Sunjsong Technology Co., Ltd. CFX Flow](ipc-cfx-data.png)
+
+#Support & Inquiries
+- Demo Request: Schedule a live demonstration with our demo line. [Contact Us](https://www.sunjsong.com/en/contact/)
+- Proof of Concept Pilot: Evaluate adopting CFX for your SMT productions
+![Sunjsong Technology Co., Ltd. demo line](sunjsong-demo.png)
+
+
