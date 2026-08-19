@@ -26,7 +26,7 @@ Deploying the IPC-CFX container fundamentally transforms edge-to-cloud data work
 - **Real-time data visibility & digital twin readiness:** Production output, equipment status, and alarms are reported live to MES and shared with digital twins for optimizing production processes.
 - **Unified equipment integration:** A common data language enables seamless integration of AOI, SPI, Printer, Reflow, Mounter, AMRs and all supporting equipment.
 
-[![SUNJSONG - IPC CFX and HERMES Integration](https://www.youtube.com/watch?v=PMCkpIYInF0)]
+[[SUNJSONG - IPC CFX and HERMES Integration](https://www.youtube.com/watch?v=PMCkpIYInF0)]
 
 ## Container Demo
 ![Sunjsong Technology Co., Ltd. CFX Demo](DEMO1.gif)
