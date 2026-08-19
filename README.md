@@ -28,6 +28,8 @@ Deploying the IPC-CFX container fundamentally transforms edge-to-cloud data work
 
 [![SUNJSONG - IPC CFX and HERMES Integration](https://img.youtube.com/vi/PMCkpIYInF0/hqdefault.jpg)](https://www.youtube.com/watch?v=PMCkpIYInF0)
 
+[SUNJSONG - IPC CFX and HERMES Integration](https://www.youtube.com/watch?v=PMCkpIYInF0)
+
 ## Container Demo
 ![Sunjsong Technology Co., Ltd. CFX Demo](DEMO1.gif)
 
